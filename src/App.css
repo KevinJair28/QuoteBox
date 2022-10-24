@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-style {
+  width: 700px;
+  padding: 10px;
+  background: #fff;
+  margin: auto;
+  text-align: right;
+  padding: 20px;
+  box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 20px 0px 21px 0px;
+  -webkit-border-radius: 20px 0px 21px 0px;
+  -moz-border-radius: 20px 0px 21px 0px;
+}
+
+.phrase-style {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.phrase-style i {
+  width: 50px;
+  height: 20px;
+  font-size: 50px;
+  padding: 7px;
+}
+
+.phrase-style p {
+  padding: 5px;
+  text-align: center;
+}
+
+.author-style {
+  text-align: right;
+}
+
+.quote-style button {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.75);
+}
